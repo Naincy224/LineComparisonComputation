@@ -13,7 +13,7 @@ public class Mainclass {
 		  lineObj.printWelcomeMessage();
 		  Point point1=new Point(2,3);
 		  Point point2=new Point(5,7);
-		  Point point3=new Point(3,4);
+		  Point point3=new Point(1,4);
 		  Point point4=new Point(6,8);
 		  
 		  double length1=lineObj.makeLine(point1, point2);

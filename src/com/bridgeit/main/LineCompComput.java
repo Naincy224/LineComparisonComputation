@@ -22,10 +22,15 @@ public class LineCompComput {
 		if (length1==length2) {
 		System.out.println("The lines are equal");
 		}
+		else if (length1<=length2){
+		System.out.println("The first line is less than second line");
+		}
 		else {
-		System.out.println("The lines are not equal");
+			System.out.println("The first line is greater than second line");
 		}
 		
+		
+			
 	}
 	
 	
