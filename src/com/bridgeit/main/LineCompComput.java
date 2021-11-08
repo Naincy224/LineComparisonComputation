@@ -15,6 +15,18 @@ public class LineCompComput {
 		return length1;
 
 	}
-
+//Adding method to compare two lines
+	public void compareLine (double length1, double length2) {
+        
+		
+		if (length1==length2) {
+		System.out.println("The lines are equal");
+		}
+		else {
+		System.out.println("The lines are not equal");
+		}
+		
+	}
+	
 	
 }
