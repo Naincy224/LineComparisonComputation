@@ -7,7 +7,7 @@ public class LineCompComput {
 		System.out.println("Welcome to Line Comparison Computation Program");
 
 	}
-//Adding method to make line
+	//Adding method to make line
 	public double makeLine(Point point1, Point point2) {
 
 		double length1 = Math.sqrt((point2.getX() - point1.getX()) ^ 2 + (point2.getY() - point1.getY()) ^ 2);
@@ -15,7 +15,7 @@ public class LineCompComput {
 		return length1;
 
 	}
-//Adding method to compare two lines
+    //Adding method to compare two lines
 	public void compareLine (double length1, double length2) {
         
 		
